@@ -1,0 +1,102 @@
+// VISIBILITY
+.hidden
+  display: none !important
+  
+// LINE
+.line  
+  width: 100%
+  height: 1px
+  background-color: var(--seco)
+  
+// BUTTONS
+.btn
+  background-color: var(--tern)
+  padding: 5px 15px
+  border: 2px solid transparent
+
+.btn
+  position: relative
+  padding: 5px 15px
+  // background-color: #111
+  border: none
+  color: #fff
+  font-weight: bold
+  font-family: var(--font-mono)
+  font-size: 1em
+  max-width: 200px
+  width: 100%
+  border: 2px solid var(--seco)
+  z-index: 2
+  overflow: hidden
+  transition-duration: .3s
+  display: flex
+  justify-content: center
+  // border-radius: 5px
+
+.btn::before
+  content: ''
+  position: absolute
+  background-color: #fff
+  width: 120%
+  height: 120%
+  z-index: -1
+  left: -130%
+  top: -10%
+  transition-duration: .4s
+
+.btn:hover
+  cursor: pointer
+  color: #111
+
+.btn:hover::before
+  left: -10%
+
+.btn-reverse::before
+  left: 130%
+
+
+// ERROR
+.error
+  color: var(--not-ok)
+
+
+// SCROLL-DOWN
+.scroll-down
+  height: 50px
+  width: 30px
+  position: relative
+  display: flex
+  justify-content: center
+
+.scroll-down::before,
+.scroll-down::after
+  content: ""
+  position: absolute
+  top: 20%
+  left: 50%
+  height: 10px
+  width: 10px
+  transform: translate(-50%, -100%) rotate(45deg)
+  border: 2px solid white
+  border-top: transparent
+  border-left: transparent
+  animation: scroll-down 1s ease-in-out infinite
+
+.scroll-down::before
+  top: 30%
+  animation-delay: 0.3s
+
+@keyframes scroll-down
+  0%
+    opacity: 0
+  
+  30%
+    opacity: 1
+  
+  60%
+    opacity: 1
+  
+  100%
+    top: 90%
+    opacity: 0
+  
