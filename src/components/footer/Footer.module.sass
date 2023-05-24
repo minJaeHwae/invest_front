@@ -1,0 +1,138 @@
+.footer
+  padding: 70px 10% 
+  background-color: #ffffff11
+
+  h2
+    font-weight: 300
+
+  
+.line
+  width: 100%
+  height: 1px
+  background-color: var(--grey-1)
+  margin: 30px 0
+
+
+.info
+  display: flex
+  justify-content: space-between
+  gap: 100px
+  flex-wrap: wrap
+
+  & > div
+    flex: 1
+    flex-basis: 250px
+
+    h3
+      font-weight: 450
+      font-size: 1em
+      margin-bottom: 10px
+      
+      span
+        display: inline-block
+        width: 14px
+        height: 14px
+        background-image: linear-gradient(90deg, #21A8FF 0%, #FF0CE1 100%)
+        border-radius: 50%
+        margin-right: 10px
+
+    a
+      position: relative
+      font-size: 1.5em
+      font-weight: 450
+      margin-left: 24px
+      color: var(--grey-1)
+
+
+.contact
+  display: flex
+  gap: 100px
+  flex-wrap: wrap
+  margin: 50px 0
+  
+  h2
+    margin-bottom: 40px
+
+
+.newsletter
+  & > div
+    position: relative
+
+    input
+      background-image: linear-gradient(90deg, #21A8FF 0%, #FF0CE1 100%)
+      padding: 30px
+      border: none
+      border-radius: 50px
+      font-size: 1.1em
+      width: 100%
+      min-width: 550px
+      color: var(--prim)
+
+      &::placeholder
+        color: var(--seco)
+        opacity: .5
+
+    button
+      position: absolute
+      right: 0
+      top: 0
+      background-color: #fff
+      padding: 30px 40px
+      border: none
+      border-radius: 50px
+      font-size: 1.1em
+      transition-duration: .3s
+      cursor: pointer
+      color: var(--prim)
+
+      &:hover
+        padding: 30px 50px
+        right: -10px
+
+
+.follow
+  & > div
+    display: flex
+    flex-wrap: wrap
+    gap: 10px
+
+    button
+      width: 80px
+      height: 80px
+      display: flex
+      justify-content: center
+      align-items: center
+      border: none
+      border-radius: 50%
+      font-size: 1.5em
+      cursor: pointer
+      transition-duration: .4s
+
+      svg
+        fill: var(--seco)
+
+      &:hover
+        background-color: var(--seco)
+        transform: scale(1.1)
+        margin: 0 10px
+
+        svg
+          fill: var(--prim)
+
+
+.members
+  display: flex
+  flex-wrap: wrap
+  gap: 10px
+
+  img
+    height: 100px
+    transition-duration: .3s
+
+    &:hover
+      opacity: .6
+
+
+.copyright
+  font-weight: 450
+  text-transform: uppercase

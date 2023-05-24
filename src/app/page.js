@@ -75,7 +75,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <section className={styles.banner}>
+      {/* <section className={styles.banner}>
         <Header night={false} />
         <video ref={videoRef} loop muted>
           <source src="/videos/city-4.mp4" />
@@ -195,7 +195,7 @@ export default function Home() {
             <MdOutlineSecurity />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className={styles.invest}>
         <h2>
