@@ -1,0 +1,68 @@
+.invest
+  min-height: 100vh
+  padding: 5vw
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  h2
+    span:first-child
+      left: auto
+      right: auto
+      text-align: center
+      
+      &::before, &::after
+        content: ''
+        position: absolute
+        width: 50vw
+        height: 0
+        top: 50%
+        border-top: 1px solid var(--grey-1)
+
+      &::before
+        left: -50vw
+
+      &::after
+        right: -50vw
+
+.form
+  flex: auto
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-align: center
+
+  h3
+    font-weight: 400
+    margin-bottom: 1rem
+
+  p
+    max-width: 400px
+    margin-bottom: 3rem
+
+  & > div
+    position: relative
+    margin-bottom: 1rem
+
+    input
+      padding: 5px 15px
+      color: var(--seco)
+      font-weight: bold
+      font-size: 1em
+      max-width: 200px
+      width: 100%
+      border: 2px solid var(--seco)
+      background-color: transparent
+
+      &:focus
+        border: 2px dashed var(--seco)
+        outline: none
+
+    svg
+      position: absolute
+      font-size: 3rem
+      top: 50%
+      right: 0
+      transform: translateY(-50%)
+      fill: url(#linearColors)

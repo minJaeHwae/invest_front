@@ -17,6 +17,7 @@ import { HiArrowSmallLeft, HiArrowSmallRight } from 'react-icons/hi2'
 import { FaEthereum, FaMicroscope } from 'react-icons/fa'
 import { RiLightbulbFlashFill } from 'react-icons/ri'
 import { MdOutlineSecurity } from 'react-icons/md'
+import Invest from '@/components/invest/Invest';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -75,7 +76,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      {/* <section className={styles.banner}>
+      <section className={styles.banner}>
         <Header night={false} />
         <video ref={videoRef} loop muted>
           <source src="/videos/city-4.mp4" />
@@ -102,7 +103,7 @@ export default function Home() {
         </TextAnim1>
       </section>
 
-      <section className={styles.latests} ref={latestsRef}>
+      <section className={styles.latests} id='properties' ref={latestsRef}>
         <div ref={latestsPinnedRef} style={{ zIndex: -1 }}>
           <h2>
             <span>Properties</span>
@@ -135,7 +136,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section className={styles.communities}>
+      <section className={styles.communities} id='communities'>
         <div>
           <div>
             <button onClick={() => { swiper?.slidePrev() }}>
@@ -195,14 +196,9 @@ export default function Home() {
             <MdOutlineSecurity />
           </div>
         </div>
-      </section> */}
-
-      <section className={styles.invest}>
-        <h2>
-          <span>Start now</span>
-          <span>INVEST</span>
-        </h2>
       </section>
+
+      <Invest />
 
       <svg width={0} height={0}>
         <defs>

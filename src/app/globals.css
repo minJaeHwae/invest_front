@@ -22,11 +22,15 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   font-family: var(--font-mono);
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--prim);
   color: var(--seco);
+}
+
+main {
   scroll-behavior: smooth;
 }
 
@@ -35,7 +39,7 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, input {
   font-family: var(--font-mono);
 }
 

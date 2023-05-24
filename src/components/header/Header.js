@@ -14,10 +14,10 @@ function Header({
     >
       <div className={styles.nav}>
         <Link href="/">RECP</Link>
-        <Link href="/">page 1</Link>
-        <Link href="/">page 2</Link>
+        <Link href="#properties">properties</Link>
+        <Link href="#communities">communities</Link>
       </div>
-      <button className='btn'>Get started</button>
+      <Link href="/#invest" className='btn'>Get started</Link>
     </div>
   );
 }
