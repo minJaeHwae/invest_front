@@ -15,10 +15,9 @@ function TitleAnim({ children }) {
           scrollTrigger: {
             trigger: elRef.current,
             start: "top bottom",
-            toggleActions: "resume reverse reverse none",
           },
           opacity: 0,
-          delay: 1 + i
+          delay: .5 + i / 1.5
         })
       });
     }

@@ -1,4 +1,5 @@
 import './globals.css'
+import '../styles/global.sass'
 import '../styles/classes.sass'
 import { Inter } from 'next/font/google'
 

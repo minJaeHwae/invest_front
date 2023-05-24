@@ -1,0 +1,89 @@
+{
+  "latests": [
+    {
+      "id": 1,
+      "title": "super villa I | super place",
+      "src": "/img/3.jpg",
+      "big": true
+    },
+    {
+      "id": 2,
+      "title": "super villa II | super place",
+      "src": "/img/2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "super villa III | super place",
+      "src": "/img/3.jpg",
+      "big": false
+    },
+    {
+      "id": 4,
+      "title": "super villa I | super place",
+      "src": "/img/1.jpg",
+      "big": true
+    },
+    {
+      "id": 5,
+      "title": "super villa II | super place",
+      "src": "/img/1.jpg",
+      "big": false
+    },
+    {
+      "id": 6,
+      "title": "super villa II | super place",
+      "src": "/img/2.jpg",
+      "big": true
+    },
+    {
+      "id": 7,
+      "title": "super villa II | super place",
+      "src": "/img/3.jpg",
+      "big": false
+    }
+  ],
+  "communities": [
+    {
+      "id": 1,
+      "name": "some community",
+      "short": "A nice community filled with people",
+      "src": "/img/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "some community",
+      "short": "A nice community filled with people",
+      "src": "/img/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "some community",
+      "short": "A nice community filled with people",
+      "src": "/img/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "some community",
+      "short": "A nice community filled with people",
+      "src": "/img/1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "some community",
+      "short": "A nice community filled with people",
+      "src": "/img/2.jpg"
+    },
+    {
+      "id": 6,
+      "name": "some community",
+      "short": "A nice community filled with people",
+      "src": "/img/3.jpg"
+    },
+    {
+      "id": 7,
+      "name": "some community",
+      "short": "A nice community filled with people",
+      "src": "/img/1.jpg"
+    }
+  ]
+}

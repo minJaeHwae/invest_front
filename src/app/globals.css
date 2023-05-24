@@ -8,6 +8,7 @@
   --seco: #fff;
   --prim: #111;
   --terc: #52e7a7;
+  --grey-1: #acacac;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,7 +68,7 @@ a {
   text-decoration: none;
 }
 
-h1, p, a {
+h1, h2, h3, p, a {
   font-family: var(--font-mono);
 }
 

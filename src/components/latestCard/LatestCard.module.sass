@@ -1,0 +1,33 @@
+.card
+  display: flex
+  flex-direction: column
+  gap: 1rem
+  justify-content: space-between
+
+  & > div:first-child
+    flex: auto
+
+  h3
+    position: relative
+    text-align: center
+    padding: 0 12%
+    font-size: 1rem
+    font-weight: 300
+    color: var(--grey-1)
+
+    &::before
+      content: ''
+      position: absolute
+      top: 50%
+      left: 0
+      width: 10%
+      border-top: 1px dashed var(--grey-1)
+
+    &::after
+      content: ''
+      position: absolute
+      top: 50%
+      right: 0
+      width: 10%
+      border-top: 1px dashed var(--grey-1)
+

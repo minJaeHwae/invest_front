@@ -51,3 +51,143 @@
     align-self: flex-end
     font-weight: 300
     line-height: 1.5rem
+
+
+.latests
+  min-height: 100vh
+  display: flex
+  padding: 5vw
+  gap: 3rem
+
+  & > div:first-child
+    flex: 2
+
+    p
+      max-width: 80%
+      margin: 2rem 0
+
+    a
+      font-weight: 350
+
+  & > div:last-child
+    flex: 3
+    display: flex
+    flex-wrap: wrap
+    gap: 2rem
+
+    & > div
+      width: calc(50% - 1rem)
+      display: flex
+      flex-direction: column
+      gap: 2rem
+
+
+.communities
+  height: 100vh
+  display: flex
+  flex-direction: column
+  padding: 5vw
+  gap: 3rem
+
+  & > div:first-child
+    display: flex
+    justify-content: space-between
+    align-items: center
+    
+    & > div
+      display: flex
+      gap: 2rem
+
+      button
+        width: 3rem
+        height: 3rem
+        display: flex
+        justify-content: center
+        align-items: center
+        background-color: transparent
+        border: 2px dashed var(--seco)
+        border-radius: 50%
+        cursor: pointer
+        font-size: 1.8rem
+        transition-duration: .3s
+
+        &:hover
+          transform: scale(1.1)
+
+    h2
+      justify-self: flex-end
+
+  & > div:last-child
+    width: 100%
+    height: 100vh
+
+
+.values
+  min-height: 100vh
+  padding: 5vw
+  display: flex
+  flex-direction: column
+
+  & > div
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    gap: 50px
+    flex: auto
+    align-items: center
+
+    & > div
+      width: 300px
+      text-align: center
+      padding: 20px 30px
+      background-color: #ffffff11
+      border-radius: 10px
+      transition-duration: .4s
+
+      h3
+        font-weight: 400
+        text-transform: uppercase
+
+      p 
+        margin: 20px 0
+
+      svg
+        font-size: 3.5rem
+        fill: url(#linearColors)
+        margin-top: 30px
+        transition-duration: .4s
+    
+      &:hover
+        background-color: #ffffff22
+
+        svg
+          transform: scale(1.2)
+
+
+.invest
+  min-height: 100vh
+  padding: 5vw
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  h2
+    span:first-child
+      left: auto
+      right: auto
+      text-align: center
+      
+      &::before, &::after
+        content: ''
+        position: absolute
+        width: 50vw
+        height: 1px
+        top: 50%
+        background-color: var(--seco)
+
+      &::before
+        left: -50vw
+
+      &::after
+        right: -50vw
+      
